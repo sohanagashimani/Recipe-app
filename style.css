@@ -194,3 +194,6 @@ header button {
 .meal-info h1 {
   text-align: center;
 }
+.meals p{
+  padding-left: 1rem;
+}

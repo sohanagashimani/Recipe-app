@@ -191,6 +191,8 @@ searchBtn.addEventListener("click", async () => {
       meals.forEach((meal) => {
         addMeal(meal, true);
       });
+    } else {
+      mealsEl.innerHTML = `<p>Sorry! your recipe not found, try searching something else.</p>`;
     }
   } else {
     getRandomMeal();
